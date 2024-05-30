@@ -1,17 +1,23 @@
 .Notifications {
-  border: thin dotted #e0344a;
-  padding: 4px 16px;
+  border: 3px dashed #e14852;
+  padding: 1em;
   float: right;
-}
-[data-notification-type='default'] {
-  color: blue;
-}
-
-[data-notification-type='urgent'] {
-  color: red;
+  margin: 10px 30px 0 0;
 }
 
 .menuItem {
   text-align: right;
-  margin-right: 16px;
+  margin-right: 30px;
+}
+
+.Notifications button img {
+  width: 20px;
+}
+
+[data-notification-type="default"] {
+  color: blue;
+}
+
+[data-notification-type="urgent"] {
+  color: red;
 }
